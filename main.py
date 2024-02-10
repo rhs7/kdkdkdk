@@ -3,13 +3,10 @@ try:
 	import random
 	import threading
 	import pyfiglet
-	import time
-except:
-
-timee=time.asctime()
-
+	
+	
 O = '\033[0;37m'
-Le = pyfiglet.figlet_format(' climed [:] ')
+Le = pyfiglet.figlet_format(' climer [:] ')
 print(O+Le)
 
 heros1 = 'qwertyuiopasdfghjklzxcvbnm1234567890'
